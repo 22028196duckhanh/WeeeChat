@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.weeechat.CallController" />
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="450.0" stylesheets="@../weeechat/call.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.weeechat.CallController">
+   <children>
+      <Button fx:id="cv1" layoutX="14.0" layoutY="530.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" text="" />
+      <Button fx:id="cv2" layoutX="105.0" layoutY="530.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" text="" />
+      <Button fx:id="cv3" layoutX="185.0" layoutY="530.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" text="" />
+      <Button fx:id="cv4" layoutX="264.0" layoutY="530.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" text="" />
+      <Button fx:id="cancel" layoutX="356.0" layoutY="530.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" text="" />
+   </children>
+</AnchorPane>

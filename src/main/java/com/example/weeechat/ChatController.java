@@ -3,6 +3,8 @@ package com.example.weeechat;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.Pane;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -10,7 +12,12 @@ import java.util.ResourceBundle;
 public class ChatController extends BaseController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-
+        back.setOnAction(e -> {
+            changeView("menu-view.fxml");
+        });
+        call.setOnAction(e -> {
+            changeView("call-view.fxml");
+        });
     }
 
     @FXML
@@ -31,4 +38,12 @@ public class ChatController extends BaseController implements Initializable {
     private Button info;
     @FXML
     private Button back;
+    @FXML
+    private TextField chat;
+    @FXML
+    private Pane toolBar;
+    @FXML
+    private Pane messageArea;
+    @FXML
+    private Pane chatBar;
 }
