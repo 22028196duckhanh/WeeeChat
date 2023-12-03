@@ -50,3 +50,6 @@
     -fx-cursor: hand;
 }
 
+#bg {
+    -fx-background-image: url('../../../icons/call-bkgr.png');
+}

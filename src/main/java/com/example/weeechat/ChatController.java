@@ -18,6 +18,9 @@ public class ChatController extends BaseController implements Initializable {
         call.setOnAction(e -> {
             changeView("call-view.fxml");
         });
+        call_video.setOnAction(e -> {
+            changeView("call-view.fxml");
+        });
     }
 
     @FXML

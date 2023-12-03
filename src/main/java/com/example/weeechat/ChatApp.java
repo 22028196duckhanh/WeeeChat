@@ -21,7 +21,6 @@ public class ChatApp extends Application {
     public void start(Stage stage) throws IOException {
         primaryStage = stage;
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/com/example/weeechat/menu-view.fxml")));
-        //primaryStage.initStyle(StageStyle.TRANSPARENT);
 
         root.setOnMousePressed(event -> {
             xOffset = event.getSceneX();

@@ -3,6 +3,7 @@ package com.example.weeechat;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.layout.AnchorPane;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -25,4 +26,6 @@ public class CallController extends BaseController implements Initializable {
     private Button cv4;
     @FXML
     private Button cancel;
+    @FXML
+    private AnchorPane bg;
 }
